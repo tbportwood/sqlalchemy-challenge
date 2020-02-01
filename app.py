@@ -21,12 +21,6 @@ app = Flask(__name__)
 # Flask Routes
 #################################################
 
-@app.route("/api/v1.0/justice-league")
-def climate_api():
-    """Return the climate data as json"""
-    
-    return jsonify(justice_league_members)
-
 
 @app.route("/")
 def welcome():
